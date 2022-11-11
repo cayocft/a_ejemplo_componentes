@@ -7,13 +7,15 @@ import { InicioComponent } from './componentes/inicio/inicio.component';
 
 import { FormsModule, ReactiveFormsModule  } from "@angular/forms";
 import { ContactoComponent } from './componentes/contacto/contacto.component';
-import { NosotrosComponent } from './componentes/nosotros/nosotros.component'
+import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
+import { FormularioComponent } from './componentes/formulario/formulario.component'
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
     ContactoComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
